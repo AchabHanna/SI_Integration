@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+@import "config/reset";
+@import "config/variables";
+@import "config/medias";
+@import "config/fonts.scss";
+@import "config/component";
+@import "layout/header";
