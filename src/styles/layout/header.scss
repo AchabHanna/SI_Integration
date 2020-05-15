@@ -50,20 +50,20 @@
       }
 
       .header__navItems {
-        //position: fixed;
+        position: fixed;
         top: 0;
         background-color: $white;
         transform: none;
         opacity: 1;
         @include medium {
           background-color: transparent;
-          // position: initial;
+          position: initial;
           height: 100%;
         }
       }
 
       .header__navOpen {
-        // position: fixed;
+        position: fixed;
         top: 0;
         z-index: 2;
 
