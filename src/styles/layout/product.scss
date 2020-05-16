@@ -1,15 +1,44 @@
 .product {
   transform: translateY(-70px);
 
+  @include large {
+    transform: translateY(-300px);
+  }
+
+  &__decorationDesktop {
+    display: none;
+
+    @include large {
+      display: block;
+
+      &--right {
+        text-align: right;
+      }
+    }
+  }
+
   &__title {
     font-size: 24px;
     color: $secondaryColor;
     font-family: $fontNothingCould;
     margin-left: 5%;
 
+    @include medium {
+      font-size: 44px;
+    }
+
+    @include large {
+      font-size: 64px;
+    }
+
     &--create {
       text-align: center;
       margin-left: 80px;
+
+      @include large {
+        margin-left: 5%;
+        text-align: left;
+      }
     }
   }
 
@@ -21,24 +50,54 @@
     margin-left: 5%;
     margin-right: 8%;
     line-height: 22px;
+
+    @include medium {
+      font-size: 20px;
+    }
   }
 
-  &__img {
-    text-align: right;
-    transform: translateY(40px);
+  &__arrow {
+    &__desktop {
+      display: none;
 
-    &--create {
-      text-align: left;
-      transform: translateY(50px);
+      @include large {
+        display: block;
+      }
     }
 
-    &--wear {
+    &__mobile {
+      text-align: right;
       transform: translateY(40px);
+
+      @include large {
+        display: none;
+      }
+
+      &--create {
+        text-align: left;
+        transform: translateY(50px);
+      }
+
+      &--wear {
+        transform: translateY(40px);
+      }
     }
   }
 
-  &__decoration--end {
+  &__decorationMobile {
+    @include large {
+      display: none;
+    }
+  }
+
+  &__decorationMobile--end {
     text-align: end;
     transform: translateY(-70px);
   }
+}
+
+.c,
+.d {
+  width: 600px;
+  display: inline-block;
 }
