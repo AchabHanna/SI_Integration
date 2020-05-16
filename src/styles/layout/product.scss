@@ -1,20 +1,44 @@
 .product {
+  transform: translateY(-70px);
+
   &__title {
     font-size: 24px;
     color: $secondaryColor;
     font-family: $fontNothingCould;
     margin-left: 5%;
+
+    &--create {
+      text-align: center;
+      margin-left: 80px;
+    }
   }
 
   &__text {
     margin-top: 14px;
     font-family: $fontMonserrat-light;
+    color: $primaryColor;
     font-size: 18px;
     margin-left: 5%;
+    margin-right: 8%;
+    line-height: 22px;
   }
 
-  &__imagine__img {
+  &__img {
     text-align: right;
-    transform: translateY(-90px);
+    transform: translateY(40px);
+
+    &--create {
+      text-align: left;
+      transform: translateY(50px);
+    }
+
+    &--wear {
+      transform: translateY(40px);
+    }
+  }
+
+  &__decoration--end {
+    text-align: end;
+    transform: translateY(-70px);
   }
 }

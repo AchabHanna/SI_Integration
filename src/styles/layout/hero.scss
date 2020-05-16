@@ -1,12 +1,6 @@
 .hero {
-  background-image: url(/assets/img/homepage-mobile-hero.svg);
+  background-image: url(/assets/img/homepage-mobile-hero1.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 25vh;
-
-  &__title {
-    font-size: 14px;
-    color: $white;
-    text-align: center;
-  }
 }
