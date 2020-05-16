@@ -1,13 +1,20 @@
 .product {
-  h2 {
+  &__title {
     font-size: 24px;
     color: $secondaryColor;
     font-family: $fontNothingCould;
+    margin-left: 5%;
   }
 
-  p {
+  &__text {
     margin-top: 14px;
     font-family: $fontMonserrat-light;
     font-size: 18px;
+    margin-left: 5%;
+  }
+
+  &__imagine__img {
+    text-align: right;
+    transform: translateY(-90px);
   }
 }
