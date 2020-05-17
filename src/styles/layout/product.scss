@@ -1,5 +1,6 @@
 .product {
   transform: translateY(-70px);
+  overflow: hidden;
 
   @include large {
     transform: translateY(-300px);
@@ -96,8 +97,10 @@
   }
 }
 
-.c,
-.d {
-  width: 600px;
-  display: inline-block;
+@include large {
+  .c,
+  .d {
+    width: 600px;
+    display: inline-block;
+  }
 }
