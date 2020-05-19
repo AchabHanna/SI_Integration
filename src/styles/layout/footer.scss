@@ -1,0 +1,255 @@
+.footer {
+  margin-top: 120px;
+
+  &__commitments {
+    @include extraLarge {
+      @include flexbox(row, space-between, center);
+      margin: 20px 40px 20px 40px;
+    }
+  }
+
+  &__Guarantee {
+    @include flexbox(column, center, center);
+    font-size: 14px;
+    font-family: $fontMonserrat;
+    border-top: 1px solid $black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @include small {
+      font-size: 16px;
+      margin: 20px 40px 20px 40px;
+    }
+    @include medium {
+      margin: 20px 60px 20px 60px;
+    }
+
+    @include extraLarge {
+      border-top: none;
+      margin: 0 0 20px 0;
+    }
+
+    .footer__icon {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__goUp {
+    @include flexbox(column, center, center);
+    background-color: $black;
+    color: $white;
+    height: 62px;
+    font-size: 18px;
+    font-family: $fontMonserrat;
+    text-transform: uppercase;
+    width: 100vw;
+    @include large {
+      height: auto;
+      border-bottom: 1px solid $black;
+    }
+
+    @include extraLarge {
+      height: auto;
+      border-bottom: 1px solid $black;
+      margin: 0;
+    }
+
+    &Text {
+      @include large {
+        display: none;
+      }
+    }
+  }
+
+  &__commercial {
+    @include flexbox(column, center, center);
+    @include large {
+      @include flexbox(row, space-between, flex-start);
+      margin: 60px 40px 20px 40px;
+    }
+  }
+
+  &__wrapper {
+    @include flexbox(row, space-between, center);
+    width: 100vw;
+    border-bottom: 1px solid $black;
+    @include large {
+      border: none;
+      width: auto;
+      justify-content: left;
+    }
+  }
+
+  &__service {
+    @include flexbox(column, space-around, left);
+    @include large {
+      flex-basis: 0;
+      flex-grow: 1;
+    }
+
+    &--newsletter {
+      margin-left: 40px;
+
+      @include large {
+        margin: 0;
+      }
+    }
+
+    &Title {
+      font-family: $fontMontserrat-Medium;
+      font-size: 16px;
+      text-transform: uppercase;
+      margin: 40px 0 40px 40px;
+
+      @include large {
+        margin: 0;
+        margin-bottom: 40px;
+      }
+      &--newsletter {
+        margin-left: 0;
+      }
+    }
+
+    .footer__moreInformation {
+      margin-right: 40px;
+      @include large {
+        display: none;
+      }
+    }
+    &Details {
+      font-size: 14px;
+      font-family: $fontMonserrat-light;
+      @include large {
+        font-size: 16px;
+        margin-right: 20px;
+        @include extraLarge {
+          margin: 0;
+          font-size: 18px;
+        }
+      }
+      li {
+        margin-bottom: 24px;
+        cursor: pointer;
+      }
+
+      .footer__newsletterInfos {
+        line-height: 28px;
+        margin-bottom: 50px;
+        @include large {
+          line-height: 32px;
+        }
+      }
+      &--help,
+      &--info {
+        display: none;
+
+        @include large {
+          display: block;
+        }
+      }
+    }
+
+    .footer__newsletterForm {
+      position: relative;
+    }
+
+    .footer__newsletterInput {
+      background-color: $black;
+      color: white;
+      font-family: $fontMonserrat;
+      font-size: 14px;
+      border: 1px solid $black;
+      width: 190px;
+      height: 32px;
+      @include medium {
+        width: 268px;
+        height: 34px;
+        font-size: 18px;
+      }
+    }
+
+    .footer__btn {
+      position: absolute;
+      height: 32px;
+      width: 32px;
+      background-color: $primaryColor;
+      color: $white;
+      font-size: 14px;
+      border: none;
+      @include medium {
+        height: 34px;
+        width: 34px;
+        font-size: 14px;
+      }
+    }
+
+    &--follow {
+      display: none;
+      @include large {
+        display: block;
+      }
+    }
+
+    &--follow {
+      margin-top: 60px;
+      @include extraLarge {
+        margin-top: 0;
+        order: -1;
+      }
+    }
+  }
+
+  &__socialMedia {
+    @include flexbox(row, left, center);
+    margin-bottom: 24px;
+
+    &Icon {
+      margin-right: 20px;
+    }
+  }
+
+  &__socialMediaSmall {
+    @include flexbox(row, flex-end, center);
+    margin-top: 60px;
+    width: 100vw;
+    margin-bottom: 60px;
+    @include large {
+      display: none;
+    }
+  }
+
+  &__smallIcon {
+    width: 28px;
+    margin-right: 20px;
+
+    &--twitter {
+      margin-right: 40px;
+    }
+  }
+
+  &__container {
+    @include flexbox(column, space-between, flex-start);
+    @include extraLarge {
+      flex-direction: row;
+      width: 40vw;
+    }
+  }
+
+  .is-visible {
+    display: block;
+
+    li {
+      margin-left: 40px;
+      @include large {
+        margin-left: 0;
+      }
+    }
+    .footer__wrapper {
+      border: none;
+    }
+  }
+
+  .is-modifier {
+    border: none;
+  }
+}

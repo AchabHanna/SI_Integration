@@ -24,7 +24,13 @@
 }
 
 @mixin extraLarge {
-  @media (min-width: 1200px) {
+  @media (min-width: 1300px) {
+    @content;
+  }
+}
+
+@mixin extraxLarge {
+  @media (min-width: 1444px) {
     @content;
   }
 }
