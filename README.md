@@ -12,8 +12,8 @@
   
 ## Caractéristiques :
 
-Marque : SWAROVSKI
-Service : Vos bijoux personnalisés imprimés en 3D en boutique
+- Marque : SWAROVSKI
+- Service : Vos bijoux personnalisés imprimés en 3D en boutique
   
 - Support : 
   - Desktop
