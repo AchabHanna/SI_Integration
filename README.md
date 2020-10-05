@@ -1,8 +1,7 @@
 # OTAKU
 
  ___"Création d'un service pour une marque"___
- 
- ![Otaku](src/images/Gif/otaku.gif)
+
 
 ## Membres :
 
