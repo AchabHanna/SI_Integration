@@ -1,4 +1,4 @@
-# OTAKU
+# By You
 
  ___"Création d'un service pour une marque"___
 
@@ -12,7 +12,7 @@
 ## Caractéristiques :
 
 Marque : SWAROVSKI
-Service : Imprimer en 3D des bijoux personnalisés
+Service : Vos bijoux personnalisés imprimés en 3D en boutique
   
 - Support : 
   - Desktop
@@ -21,9 +21,5 @@ Service : Imprimer en 3D des bijoux personnalisés
 - Temps imparti : 
   - 4 jours de conception
   - 15 minutes de soutenance orale
-  
-- Cahier des charges :
-  - Une landingpage, une homepage, une page films, une page séries, une page compte
-  - Un media player
 
 ## Page web 
