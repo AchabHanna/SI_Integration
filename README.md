@@ -5,8 +5,9 @@
 
 ## Membres :
 
-  - Oum Mauduit
-  - Hanna Achab
+[Hanna ACHAB](https://github.com/AchabHanna)
+
+[Oum MAUDUIT](https://github.com/Mauduit-O)
 
   
 ## Caractéristiques :
